@@ -1,0 +1,39 @@
+ body {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    background: #fff; 
+  /*  color: #ffe; /* Цвет текста */
+   }
+   a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 1000px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+   /* background: #FCE600; /* Цвет колонок */
+   }
+   header { 
+    display: block;
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; 
+    padding: 5px; /* Отступы вокруг текста */
+  /*  background: #D71920; /* Цвет фона шапки */
+   }
+   nav{
+    display: block;
+    float: left; width: 200px; padding: 5px; 
+   }
+   figure{display:block; float:left; }
+   figure img{height: 90px; }
+   article{margin: 10px 0;}
+   .products{border: 1px solid #c6c6c6; border-radius: 4px; height: auto}
+
+    #content {
+    margin: 0 0 0 200px; /* Ширина колонок */
+    padding: 10px;
+   }
+  
+   h2 { margin: 0 0 1em;}
+   footer { 
+    display: block;
+    clear: both; /* Отменяем действие float */
+    padding: 5px; 
+    background: #ccc; 
+   }
